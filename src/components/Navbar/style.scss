@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.navbar-logo img {
+    width: 4.5vw;
+    margin-right: 45px;
+    filter: invert(100%);
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        font-size: 16px;
+    }
+}
+
+.background {
+    background-image: url('../../assets/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20em;
+    position: fixed;
+    overflow: hidden;
+    z-index: -9999;
+    filter: grayscale(100%) brightness(35%);
+}
+
+.link {
+    z-index: 100;
+}

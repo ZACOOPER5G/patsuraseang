@@ -1,0 +1,16 @@
+.about-section {
+    p {
+        font-size: 70px;
+        line-height: 1.12;
+        font-family: "Bai Jamjuree";
+        opacity: 1;
+        >div {
+            opacity: 0;
+            transform: translate(0);
+        }
+
+        &.is-reveal {
+            opacity: 1;
+        }
+    }
+}

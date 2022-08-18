@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+$bg-color: #f5f0ec;
+
+body,
+html {
+        cursor: none;
+        background-color: $bg-color;
+        height: 100vh;
+        margin: 0;
+}
+
+.main-container {
+    padding: 0 5vw;
+}
+
+section {
+    padding: 100px 0;
+    .section-header {
+        margin-bottom: 50px;
+    }
+}
+.header-container{
+    padding: 1px !important;
+}
+
+.featured-section {
+    padding: 1px 0 !important;
+}
+
+.gallery-item-info {
+    top: 10%;
+}
+
+.loader-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #191919;
+    color: #dbd8d6;
+    transition: 0;
+
+    h1 {
+        font-size: 1.5vw;
+        text-transform: uppercase;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 1.5vw;
+        text-transform: uppercase;
+        font-family: 'Bodoni Moda', sans-serif;
+        font-weight: 600;
+        font-style: italic;
+        margin-top: 10px;
+    }
+}
+
+.absolute {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}

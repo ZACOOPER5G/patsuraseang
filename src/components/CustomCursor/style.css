@@ -1,0 +1,14 @@
+.main-cursor {
+  z-index: 999;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: white;
+  pointer-events: none;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  position: fixed;
+  mix-blend-mode: difference;
+}
+/*# sourceMappingURL=style.css.map */
