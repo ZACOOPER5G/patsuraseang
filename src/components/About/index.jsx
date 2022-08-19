@@ -42,7 +42,7 @@ export const About = () => {
         >
             <SectionHeader title="about" />
             <p ref={ref} id="headline" className={cn({'is-reveal': reveal})} >
-                Hi, I'm Pat. I love getting fisted by other men and taking photos is my way of expressing that.
+                Hi, I'm Pat. I'm a photographer from Sydney, Australia.
             </p>
         </section>
     )
