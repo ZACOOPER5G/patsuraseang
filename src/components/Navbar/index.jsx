@@ -10,7 +10,7 @@ export const Navbar = () => {
             <div className="navbar-logo link"><img src={icon} /></div>
             <div className="link">my work</div>
             <div className="link">contact</div>
-            <span className="background"></span>
+            {/* <span className="background"></span> */}
 
         </section>
     )
